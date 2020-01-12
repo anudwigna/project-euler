@@ -6,7 +6,8 @@ namespace project
     {
         static void Main(string[] args)
         {
-            Problem1.Execute();
+            //Problem1.Execute();
+            Problem2.Execute();
         }
     }
 }
