@@ -7,7 +7,8 @@ namespace project
         static void Main(string[] args)
         {
             //Problem1.Execute();
-            Problem2.Execute();
+            //Problem2.Execute();
+            Problem3.Execute();
         }
     }
 }
