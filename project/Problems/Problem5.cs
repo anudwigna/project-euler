@@ -16,7 +16,7 @@ namespace project.Problems
             while(true)
             {
                 bool isTheNumber = true;
-                for (int j = 1; j <= 4 0; j++)
+                for (int j = 1; j <= 20; j++)
                 {
                     bool flag = true;
                     if (i % j != 0)
