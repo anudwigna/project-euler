@@ -1,4 +1,5 @@
-﻿using System;
+﻿using project.Problems;
+using System;
 
 namespace project
 {
@@ -9,7 +10,8 @@ namespace project
             //Problem1.Execute();
             //Problem2.Execute();
             //Problem3.Execute();
-            Problem4.Execute();
+            //Problem4.Execute();
+            Problem5.Execute();
         }
     }
 }

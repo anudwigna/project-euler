@@ -10,7 +10,34 @@ namespace project.Problems
     {
         public static void Execute()
         {
+            int i = 1;
+            int theNumber = 0;
 
+            while(true)
+            {
+                bool isTheNumber = true;
+                for (int j = 1; j <= 4 0; j++)
+                {
+                    bool flag = true;
+                    if (i % j != 0)
+                    {
+                        flag = false;
+                        isTheNumber = false;
+                        break;
+                    }
+                }
+                
+                if (isTheNumber == true)
+                {
+                    theNumber = i;
+                    break;
+                }
+
+                i++;
+            }
+
+            Console.WriteLine($"The number is: {theNumber}");
+            Console.ReadLine();
         }
     }
 }
